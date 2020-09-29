@@ -3,11 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio web con Fazt</title>
+    <title>Sitio web profesional</title>
+
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Iconos y estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Sitio web</h1>
-    <h2>Fazt</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas labore adipisci quia earum quibusdam cumque fuga dolor possimus magni ut.</p>
+    <div class="wrapper">
+
+        <!-- Banner -->
+        <div class="banner-wrapper">
+            <header>
+                <div class="header-inner">
+                    <a href="index.html" id="logo">
+                        <img src="img/pics/logo.png" alt="Logo">
+                    </a>
+
+                    <nav>
+                        <a href="" id="menu-icon">
+                            <em class="fa fa-bars"></em>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#skills">Habilidades</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portafolio</a>
+                            </li>
+                            <li>
+                                <a href="#services">Servicios</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </header>
+
+            <section class="slide-wrap">
+                <ul class="slider1">
+                    <li><img src="img/slider/landscape_1.jpg" alt="Paisaje azul"></li>
+                    <li><img src="img/slider/landscape_2.jpg" alt="Flor"></li>
+                    <li><img src="img/slider/landscape_3.jpg" alt="Paisaje otoño"></li>
+                </ul>
+            </section>
+
+        </div>
+
+    </div>
+
+    <section id="skills" class="one-third">
+        <div class="icon-wrap">
+            <em class="fa fa-desktop"></em>
+        </div>
+        <h3>Diseño web</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non a, consequatur dolore placeat mollitia sed excepturi iste beatae fuga numquam ducimus similique vitae nam deserunt ratione facere voluptatem error?</p>
+    </section>
+
+    <section id="skills" class="one-third">
+        <div class="icon-wrap">
+            <em class="fa fa-pencil-square-o"></em>
+        </div>
+        <h3>Diseño gráfico</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non a, consequatur dolore placeat mollitia sed excepturi iste beatae fuga numquam ducimus similique vitae nam deserunt ratione facere voluptatem error?</p>
+    </section>
+
+    <section id="skills" class="one-third">
+        <div class="icon-wrap">
+            <em class="fa fa-file-code-o"></em>
+        </div>
+        <h3>Desarrollo web</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non a, consequatur dolore placeat mollitia sed excepturi iste beatae fuga numquam ducimus similique vitae nam deserunt ratione facere voluptatem error?</p>
+    </section>
+
+    <!-- Services -->
+    <div class="one-third-padding" id="services">
+        <h3>Nuestras servicios uno</h3>
+        <img src="img/skills/angular.png" alt="Angular">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, placeat!</p>
+    </div>
+
+    <div class="one-third-padding" id="services">
+        <h3>Nuestras servicios dos</h3>
+        <img src="img/skills/firebase.png" alt="Angular">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, placeat!</p>
+    </div>
+
+    <div class="one-third-padding" id="services">
+        <h3>Nuestras servicios tres</h3>
+        <img src="img/skills/vue.png" alt="Angular">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, placeat!</p>
+    </div>
+
+    <footer>
+        <div class="banner-wrapper">
+            <div class="icon-text">
+
+                <div class="icon-text-icon">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#services">Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="icon-text-text">
+                    <ul>
+                        <li>
+                            <a href="mailto:majok5040@gmail.com" target="_blank">
+                                <em class="fa fa-envelope-o"></em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <em class="fa fa-facebook"></em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <em class="fa fa-twitter"></em>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="second-footer">
+        <p>
+            &copy; <a href="https://www.faztweb.com" target="_blank">ZGK</a> 
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        $(document).ready(function(){
+            $('.slider1').bxSlider({
+                mode: 'fade',
+                speed: 1000
+            });
+        });
+    </script>
 </body>
 </html>
